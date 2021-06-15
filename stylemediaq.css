@@ -1,11 +1,7 @@
 @media screen and (max-width: 420px) {
     
     /* GENERICS */
-    body {
-        font-size: 20px;
         
-    }
-    
     h1 {
         margin-bottom: 15px;
     }
@@ -20,8 +16,8 @@
 
     .row {
         margin-top: 10px;
-        
-        
+        width: 100%;
+       
     }
     
     /* LEZIONI */
@@ -51,6 +47,7 @@
 
     .container.grey {
         background-color: rgb(255, 255, 255);
+     
     }
 
     /* Perché */
@@ -58,6 +55,8 @@
     #why .row>.second,
     #why .row>.third {
         margin-top:0;
+        width: 100%;
+        
     }
 
     
