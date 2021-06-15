@@ -1,12 +1,14 @@
 @media screen and (max-width: 420px) {
+    
+    /* GENERICS */
     body {
         font-size: 20px;
-        
     }
     
     h1 {
         margin-bottom: 15px;
     }
+
     h3 {
         margin: 0;
     }
@@ -18,14 +20,9 @@
     .row {
         margin-top: 10px;
         width: 800px;
-        
     }
     
-    #lezioni .row {
-        margin: 0 auto;
-        
-    }
-
+    /* LEZIONI */
     #lezioni .row>.left,
     #lezioni .row>.right {
         width: 100%;
@@ -37,6 +34,7 @@
         margin-top: 20px;
     }
     
+    /* STEPS  */
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
@@ -53,11 +51,7 @@
         background-color: rgb(255, 255, 255);
     }
 
-
-    #why .row {
-        
-    }
-
+    /* Perché */
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
